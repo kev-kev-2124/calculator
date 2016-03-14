@@ -1,6 +1,6 @@
 # calculator
 
-def main():
+def calculator():
   operation = input(">>>Calculator: ")
   
   def num1():
@@ -10,8 +10,8 @@ def main():
     input(int(operation))
     
   def op():
-    input('+' or '-' or '/' or '*'(operation))
+    input('+' or '-' or '/' or '*' or '**' or '%'(operation))
     
-  operation = ((num1) (op) (num2))
+  operation = input((num1) (op) (num2))
   
-  return operation
+calculator()
